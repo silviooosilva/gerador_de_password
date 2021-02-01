@@ -3,7 +3,8 @@ import os
 import time
 from platform import system
 
-os.system("clear")
+
+# os.system("clear")
 lower = "abcdefghijklmnopqrstuvwxyz"
 Upper = lower.upper()
 numbers = "0123456789"
