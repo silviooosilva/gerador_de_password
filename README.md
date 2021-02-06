@@ -1,38 +1,38 @@
-# ![](img/favicon/favicon-32x32.png) - Gerador de Passwords
+# ![icon](img/favicon/favicon-32x32.png) - Gerador de Passwords
 
-![](img/01.jpg)
+![logo](img/01.jpg)
 
 ## CLI
 **Menu Principal** \
-![](img/menu_principal.png)
+![menu-pricipal-cli](img/menu_principal.png)
 
-**Menu Ajuda CLI** \
-![](img/menu_ajuda.png)
+**Menu Ajuda** \
+![menu-ajuda-cli](img/menu_ajuda.png)
 
 ---
 
 ## GUI
 **Janela Principal** \
-![](img/janela_principal.png)
+![janela-principal-gui](img/janela_principal.png)
 
 **Codificado** \
-![](img/codificado.png)
+![janela-codificado-gui](img/codificado.png)
 `* a codificação é feita de forma dinámica, o que significa
 que uma palavra pode ter varias cifras e também é valida a
 codificação de palavras separadas ex: 'meu amigo'..`
 
 **Copiar para Colar** \
-![](img/copy_paste.png)
+![janela-copiar-gui](img/copy_paste.png)
 `* a opção de copiar serve para transferir o texto codificado
 para o clipboard do sistema e facilitar para que o usuario
 apenas cole o texto onde for preciso..`
 
 **Retornando Erro** \
-![](img/erro.png)
+![janela-erro-gui](img/erro.png)
 `* a palavra introduzida deve ter no minimo 6 caracteres..`
 
 **Sobre o Programa** \
-![](img/sobre.png)
+![janela-sobre-programa-gui](img/sobre.png)
 
 ---
 
