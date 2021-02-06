@@ -16,19 +16,19 @@
 ![janela-principal-gui](img/janela_principal.png)
 
 **Codificado** \
-![janela-codificado-gui](img/codificado.png)
+![janela-codificado-gui](img/codificado.png) \
 `* a codificação é feita de forma dinámica, o que significa
 que uma palavra pode ter varias cifras e também é valida a
 codificação de palavras separadas ex: 'meu amigo'..`
 
 **Copiar para Colar** \
-![janela-copiar-gui](img/copy_paste.png)
+![janela-copiar-gui](img/copy_paste.png) \
 `* a opção de copiar serve para transferir o texto codificado
 para o clipboard do sistema e facilitar para que o usuario
 apenas cole o texto onde for preciso..`
 
 **Retornando Erro** \
-![janela-erro-gui](img/erro.png)
+![janela-erro-gui](img/erro.png) \
 `* a palavra introduzida deve ter no minimo 6 caracteres..`
 
 **Sobre o Programa** \
