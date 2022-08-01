@@ -3,6 +3,7 @@ import os
 import time
 from platform import system
 from colorama import *
+from functions import *
 init(autoreset=True)
 
 
@@ -28,6 +29,9 @@ def nivel_one():
         time.sleep(2)
         tamanho = random.randint(6, 10)
         password = psw(letras, tamanho)
+
+        savePassword(password, 'EASY')
+
         print('=' * 30)
         print('\tGERANDO A PASSWORD...')
         time.sleep(3)
@@ -49,6 +53,9 @@ def nivel_two():
         tamanho = random.randint(6, 15)
         print('=' * 30)
         password = psw(junto, tamanho)
+
+        savePassword(password, 'MEDIUM')
+
         print('\tGERANDO A PASSWORD... ')
         time.sleep(3)
         print('=' * 30)
@@ -69,6 +76,9 @@ def nivel_three():
         tamanho = random.randint(6, 20)
         print('=' * 30)
         password = psw(forte, tamanho)
+
+        savePassword(password, 'HARD')
+
         print('\tGERANDO A PASSWORD... ')
         time.sleep(3)
         print('=' * 30)
@@ -117,11 +127,13 @@ E O PROGRAMA LHE DIRÁ SE É SEGURA OU NÃO
     psword = str(input('DIGITE A SUA PALAVRA - PASSE:\n> '))
     print('VERIFICANDO...')
     time.sleep(3)
-    if len(psword) >= 6 or psw in forte:
-        print('\033[1;32mA SUA PALAVRA - PASSE É SEGURA\033[m')
-    else:
-        print('\033[1;31mA SUA PALAVRA - PASSE NÃO É SEGURA\033[m')
-
+    try:
+        if (len(psword) >= 6) or (psw in forte):
+            print('\033[1;32mA SUA PALAVRA - PASSE É SEGURA\033[m')
+        else:
+            print('\033[1;31mA SUA PALAVRA - PASSE NÃO É SEGURA\033[m')
+    except:
+        print(f'{Fore.RED}A SUA PASSWORD PRECISA TER NO MINIMO 6 CARACTERS! TENTE NOVAMENTE [!]')
 
 if __name__ == '__main__':
     print(f"""{Fore.GREEN}
